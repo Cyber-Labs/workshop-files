@@ -1,0 +1,11 @@
+    #div1{
+        background: black;
+        color: white;
+        text-decoration: line-through;
+        text-align: center;
+        display: block;
+        width: 30px;
+        float: right;
+        position:absolute;
+        top:0;
+    }

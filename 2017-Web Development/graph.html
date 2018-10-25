@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Example</title>
+    <style>
+        div{
+            background: #000000;
+            width:40px;
+            height: 80px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="1"></div>
+    <div id="2"></div>
+    <div id="3"></div>
+    <div id="4"></div>
+    <div id="5"></div>
+    <script>
+    height=0;
+    for(var i=0;i<5;i++){
+        height+=20;
+        document.querySelectorAll('div')[i].style.height = height + "px";
+    }
+    </script>
+</body>
+</html>
