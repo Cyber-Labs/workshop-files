@@ -1,0 +1,19 @@
+body{
+	background-image:
+	linear-gradient(to right, red , yellow);
+}
+
+h1{
+	color:blue;
+}
+
+p{
+	border: 3px solid red;
+	padding: 50px;
+}
+
+
+
+h2{
+	background-color: yellow;
+}
