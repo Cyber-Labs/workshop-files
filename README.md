@@ -1,3 +1,3 @@
 # Workshop Files
 
-This repository contains the slides and code files which were used in the workshops conducted by Cyber Labs in October-2018.
+This repository contains the slides and code files which were used in the workshops conducted by Cyber Labs.
