@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>
+      DOM
+    </title>
+  </head>
+  <body>
+    <h1 id="heading">CyberLabs</h1>
+    <button
+      type="button"
+      onmouseover="document.getElementById('heading').style.color = 'red'"
+    >
+      Hover Me to make heading Red!
+    </button>
+    <br /><br />
+    <button id="info_btn">
+      Show information!
+    </button>
+    <br />
+    <h2 id="info"></h2>
+    <script>
+      var element = document.getElementById("info");
+      var btn = document.getElementById("info_btn");
+      btn.addEventListener("click", showInfo);
+      function showInfo() {
+        element.innerHTML = "The Programming Club of IIT (ISM)";
+      }
+    </script>
+  </body>
+</html>
