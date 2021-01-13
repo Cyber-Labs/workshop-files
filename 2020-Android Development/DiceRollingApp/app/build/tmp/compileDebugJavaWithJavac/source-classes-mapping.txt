@@ -1,0 +1,4 @@
+com/example/dicerollingapp/BuildConfig.java
+ com.example.dicerollingapp.BuildConfig
+com/example/dicerollingapp/MainActivity.java
+ com.example.dicerollingapp.MainActivity
